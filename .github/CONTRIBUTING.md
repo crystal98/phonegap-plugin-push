@@ -105,3 +105,163 @@ for your preferred IDE. Consistency is key.
 The project uses [.eslint](http://eslint.org/) to define the JavaScript
 coding conventions. Most editors now have a ESLint add-on to provide on-save
 or on-edit linting.
+
+## Issue labels
+
+Selecting accurate label(s) communicates vital information about an issue.
+
+### Labels by `Type` defined
+
+> #### :information_source: `Type` labels and Git commit conventions
+> This project enforces _[AngularJS Git Commit Guidelines][git-commit-guidelines-url]_ with [`commitplease`][commitplease-url] pre-commit hooks. This not only encourages succinct change logs, but also enables automated release management with [`semantic-release`][semantic-release-url].
+
+#### 🏷️  `Type: Build`
+
+Issues related to product builds. The AngularJS Git commit message format is
+
+```
+
+build(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Chore`
+
+Issues related to miscellaneous non-functional changes (usually "maintenance" changes). The AngularJS Git commit message format is
+
+```
+
+chore(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: CI`
+
+Issues related to continuous integration, delivery, and deployment tasks. The AngularJS Git commit message format is
+
+```
+
+ci(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Docs`
+
+Issues related to continuous integration, delivery, and deployment tasks. The AngularJS Git commit message format is
+
+```
+
+ci(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Feature`
+
+New feature or enhancement requests. The AngularJS Git commit message format is
+
+```
+
+feat(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Fix`
+
+Defect (bug) repair issues. The AngularJS Git commit message format is
+
+```
+
+fix(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Performance`
+
+Performance improvement issues. The AngularJS Git commit message format is
+
+```
+
+perf(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Refactor`
+
+Source code design **improvements that do not affect product behavior**. The AngularJS Git commit message format is
+
+```
+
+refactor(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Revert`
+
+Tasks that revert to a previous commit hash. The AngularJS Git commit message format is
+
+```
+
+revert(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Style`
+
+Issues related to style guideline compliance, especially `ESLint` errors and warnings. The AngularJS Git commit message format is
+
+```
+
+style(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+#### 🏷️  `Type: Test`
+
+Test coverage tasks. The AngularJS Git commit message format is
+
+```
+
+test(<scope>): <subject>
+<BLANK LINE>
+<[body]>
+<BLANK LINE>
+<footer>
+```
+
+[commitplease-url]: https://www.npmjs.com/package/commitplease
+[git-commit-guidelines-url]: https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
+[label-status-available-url]: ../labels/Status%3A%20Available
+[new-issue-url]: ../issues/new
+[open-issues-url]: ../issues
+[pr-url]: ../pulls
+[semantic-release-url]: https://github.com/semantic-release/semantic-release
